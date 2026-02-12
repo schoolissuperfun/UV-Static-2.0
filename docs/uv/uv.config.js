@@ -1,4 +1,6 @@
 self.__uv$config = {
+  bare: "https://uv.student-portal.xyz/bare/", // This is a public bare server
+  prefix: "service/",
   prefix: "service/", 
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
