@@ -1,5 +1,4 @@
 self.__uv$config = {
-  /* On GitHub Pages, prefix usually works best relative too */
   prefix: "service/", 
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
